@@ -6,3 +6,7 @@
     background-color: blue;
     padding: 10%;
 }
+.black {
+    text-decoration-color: white;
+    background-color: black;
+}
