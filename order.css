@@ -8,5 +8,8 @@
 }
 .black {
     text-decoration-color: white;
+}
+.nav-container {
+    padding-left: 16px;
     background-color: black;
 }
