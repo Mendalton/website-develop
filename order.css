@@ -11,8 +11,8 @@
 }
 .nav-container {
     padding-left: 16px;
+    padding-right: 16px;
     background-color: black;
-    padding: 16px;
 }
 .imground {
     border-radius: 4px;
