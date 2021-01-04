@@ -6,14 +6,25 @@
     background-color: blue;
     padding: 10%;
 }
-.black {
-    text-decoration-color: white;
-}
 .nav-container {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 16px;
     background-color: black;
 }
 .imground {
     border-radius: 4px;
+}
+.li{
+    float: left;
+}
+.button{
+    background-color: none;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 32px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.button:hover {
+background-color: rgb(3, 3, 73);
 }
