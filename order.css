@@ -6,8 +6,8 @@
     background-color: blue;
     padding: 10%;
 }
-.nav-container {
-    padding: 16px;
+.navbar {
+    overflow: hidden;
     background-color: black;
 }
 .imground {
@@ -16,15 +16,16 @@
 .li{
     float: left;
 }
-.button{
-    background-color: none;
+.navbar a {
+    float: left;
+    display: block;
     color: white;
-    text-decoration: none;
     text-align: center;
-    padding: 15px 32px;
+    text-decoration: none;
+    padding: 14px 16px;
     cursor: pointer;
     transition-duration: 0.4s;
 }
-.button:hover {
+.navbar a:hover {
 background-color: rgb(3, 3, 73);
 }
