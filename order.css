@@ -2,10 +2,7 @@
     align-items: center;
 }
 
-.para {
-    background-color: blue;
-    padding: 10%;
-}
+
 .navbar {
     overflow: hidden;
     background-color: black;
@@ -28,4 +25,10 @@
 }
 .navbar a:hover {
 background-color: rgb(3, 3, 73);
+}
+.centertext {
+    text-align: center;
+}
+.webcontainer {
+    padding: 32px;
 }
