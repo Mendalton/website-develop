@@ -5,16 +5,18 @@
 
 .navbar {
     overflow: hidden;
-    background-color: black;
 }
 .imground {
     border-radius: 4px;
 }
 .li{
-    float: left;
+    float: right;
+}
+.largetext {
+    text-;
 }
 .navbar a {
-    float: left;
+    float: right;
     display: block;
     color: white;
     text-align: center;
@@ -22,9 +24,10 @@
     padding: 14px 16px;
     cursor: pointer;
     transition-duration: 0.4s;
+    font-family: 'monaco', 'monospace';
 }
 .navbar a:hover {
-background-color: rgb(3, 3, 73);
+    color: rgb(155, 155, 155);
 }
 .centertext {
     text-align: center;
@@ -32,3 +35,17 @@ background-color: rgb(3, 3, 73);
 .webcontainer {
     padding: 32px;
 }
+.parallax {
+    background-image: url("parrator.png");
+    height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
