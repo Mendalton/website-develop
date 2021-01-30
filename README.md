@@ -1,4 +1,4 @@
-## Welcome to Mendalton's webssite template
+## Welcome to Mendalton's website template
 
 Usually, this stuff updates a lot since I want to find what I can template.
 
