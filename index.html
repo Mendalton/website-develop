@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <meta charset="UTF-8">
-  <title>www.mendaltonmc.com</title>
+  <title>Mendalton Website Template</title>
   <meta name="viewport" content="width=device-width,initial-scale-1">
   <head>
     <link rel="stylesheet" href="order.css">
+    <link rel = "icon" href="Head.png"
+    tyoe = "image/x-icon">
   </head>
   <style>
     body, html {
@@ -13,14 +15,34 @@
     body{margin:0;}
   </style>
   <body>
-    <div class="parallax navbar">
-      <a href="#">Home</a>
-      <a href="#">About</a>
+    <div class="parallax navbar" id="mynavbar">
       <a href="#">Projects</a>
+      <a href="#">About</a>
+      <a href="#">Home</a>
+      <a href="javascript:void(0);" class="icon" onclick="myfunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
-    <div class="centertext webcontainer">
-      <h1>Main</h1>
-      <p>Welcome to Mendalton's website template <br> this is where I present stuff</p>
+    <div class=" centertext webcontainer robotofont">
+      <h1>Welcome to a website template</h1>
+      <p>So, you want to make a website completely from HTML and CSS? Well, you find the right place.</p>
+      <p>This website template contains things such as photo parallax effects, <br>clickable images, and even a search bar.</p>
+      <p>Hope you enjoy using this template and this template can always be updated.</p>
     </div>
+    <div class="webcontainer blackbackgroundcolor robotofont">
+      <h1 class="centertext">Latest stuff and ideas</h1>
+    </div>
+    
+    <script>
+      function myFunction() {
+        var x = document.getElementById("mynavbar");
+        if (x.className === "navbar") {
+          x.className += " responsive";
+        } else {
+          x.className = "navbar";
+        }
+      }
+    </script>
+    </body>
   </body>
 </html>
