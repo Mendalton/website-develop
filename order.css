@@ -75,3 +75,18 @@
 .robotofont {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+div.gallery {
+    margin: 5px;
+    border: 1px, solid rgb(41, 41, 41);
+    float: left;
+    width: 180px;
+}
+div.gallery:hover {
+    border: 1px solid black;
+}
+.marginspacing {
+    margin-right: 250px;
+}
+.imgcontainer {
+    float: center;
+}
