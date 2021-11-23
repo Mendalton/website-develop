@@ -8,4 +8,4 @@ The Index is still in function as of now and I had no reaosn to use a code text 
 
 Template link: https://mendalton.github.io/website-develop/ (MIND: This is not complete)
 
-(Don't edit this README)
+**THIS REPOSITORY IS NOW ARCHEIVED** (I'ma see if i can make a new one)
