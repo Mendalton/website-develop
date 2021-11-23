@@ -8,4 +8,6 @@ The Index is still in function as of now and I had no reaosn to use a code text 
 
 Template link: https://mendalton.github.io/website-develop/ (MIND: This is not complete)
 
-**THIS REPOSITORY IS NOW ARCHEIVED** (I'ma see if i can make a new one)
+
+
+__**THIS REPOSITORY IS NOW ARCHEIVED**__ (I'ma see if i can make a new one)
